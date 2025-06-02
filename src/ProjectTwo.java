@@ -8,7 +8,6 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
-//import javafx.scene.text.Text;
 
 
 import java.awt.*;
@@ -135,6 +134,7 @@ public class ProjectTwo extends Application {
     private void checkInteractionWithSpecialObject() {
         if (snake.getFirst().equals(food)) {
             // взаимодействия с новым объектом
+            // тосвтшщ
             snake.addLast(new Point(-1, -1));
             spawnFood(); // Создаем новый объект после взаимодействия
 
